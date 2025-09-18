@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(marco LANGUAGES C CXX)
+project(myproject LANGUAGES C CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions -fno-rtti")
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/lib)
