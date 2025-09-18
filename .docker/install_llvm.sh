@@ -3,6 +3,7 @@
 rm -rf llvm-project
 git clone https://github.com/llvm/llvm-project.git
 cd llvm-project || exit 1
+git checkout e3c7b7f806559a361d2cf8374d65230c75bb5829
 
 mkdir build
 
